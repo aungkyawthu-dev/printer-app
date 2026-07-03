@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Receipt Bridge
 
 Android print service for generic ESC/POS thermal receipt printers. Receipt
@@ -220,3 +221,6 @@ cd android
 **Aung Kyaw Thu**  
 Receipt Bridge v1.8.0
 
+=======
+# printer-app
+>>>>>>> c1f48b92feb15366f075f8c752b6eb53abb75098
