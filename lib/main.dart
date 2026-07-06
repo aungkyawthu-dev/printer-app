@@ -15,7 +15,7 @@ class ReceiptBridgeApp extends StatelessWidget {
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Receipt Bridge',
+      title: 'HapEye Print',
       theme: ThemeData(
         colorScheme: colors,
         useMaterial3: true,
@@ -298,7 +298,7 @@ class _PrinterHomePageState extends State<PrinterHomePage>
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Receipt Bridge',
+          'HapEye Printer',
           style: TextStyle(fontWeight: FontWeight.w700),
         ),
         actions: [
@@ -1423,6 +1423,12 @@ class PrivacyPolicyPage extends StatelessWidget {
             child: Text(
               'Developed by Aung Kyaw Thu',
               style: TextStyle(fontWeight: FontWeight.w700),
+            ),
+          ),
+          Center(
+            child: const Text(
+              'aungkyawthu.dev@gmail.com',
+              style: TextStyle(fontSize: 12, color: Colors.black54),
             ),
           ),
         ],
